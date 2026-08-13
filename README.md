@@ -1,21 +1,21 @@
-# 流光翻唱 liuguang_sing
+# liuguang_sing — 群聊 AI 翻唱插件
 
-AstrBot 插件：群里 **@流光 翻唱** + 附带/引用一个 mp3 文件，调用 **MiniMax music-cover** 生成翻唱歌曲，并把结果以语音消息发回群聊。
+AstrBot 插件：群里 **@机器人 翻唱** + 附带/引用一个 mp3 文件，调用 **MiniMax music-cover** 生成翻唱歌曲，并把结果以语音消息发回群聊。
 
-> 仅对 `aiocqhttp` 平台（NapCat / OneBot11）生效。
+> 通用插件，不依赖机器人昵称；仅对 `aiocqhttp` 平台（NapCat / OneBot11）生效。
 
 ## 效果流程
 
 ```
 有人发 mp3 文件到群里
   ↓
-@流光 翻唱（可加风格描述，如 "翻唱 改成摇滚风格"）
+@机器人 翻唱（可加风格描述，如 "翻唱 改成摇滚风格"）
   ↓
-流光回复"正在翻唱中…"（预计 1~3 分钟）
+机器人回复"正在翻唱中…"（预计 1~3 分钟）
   ↓
 MiniMax music-cover-free 生成翻唱
   ↓
-流光把翻唱音频作为语音消息发到群里
+机器人把翻唱音频作为语音消息发到群里
 ```
 
 ## 安装
@@ -46,7 +46,7 @@ MiniMax music-cover-free 生成翻唱
 ## 技术说明
 
 - 解密/转码链路（酷狗等加密格式 → mp3）：可配合 [unlock-music um CLI](https://git.unlock-music.dev/um/cli) 使用
-- 翻唱本质是"提取旋律骨架 + AI 重新演绎"，输出音色为 MiniMax 音乐模型默认人声，**不是原唱音色**，也无法指定流光/自定义音色
+- 翻唱本质是"提取旋律骨架 + AI 重新演绎"，输出音色为 MiniMax 音乐模型默认人声，**不是原唱音色**，也无法指定自定义音色
 - MiniMax 官方接口：`POST /v1/music_generation`（music-cover / music-cover-free）
 
 ## 许可证
