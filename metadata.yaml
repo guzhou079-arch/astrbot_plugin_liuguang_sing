@@ -1,0 +1,5 @@
+name: liuguang_sing
+desc: 流光翻唱：群里 @流光 翻唱 + 引用/附带 mp3 文件，调用 MiniMax music-cover 生成翻唱并发送语音到群。
+version: v1.0.0
+author: guzhou
+repo: https://github.com/guzhou079-arch/astrbot_plugin_liuguang_sing
