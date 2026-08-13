@@ -1,6 +1,6 @@
-"""liuguang_sing: 流光翻唱插件。
+"""liuguang_sing: 群聊 AI 翻唱插件（通用，不依赖机器人昵称）。
 
-群里 @流光 翻唱（可加风格描述），并引用或附带一个 mp3 文件：
+群里 @机器人 翻唱（可加风格描述），并引用或附带一个 mp3 文件：
 1. 从群消息/引用消息中取音频文件，下载到本地；
 2. 调 MiniMax music-cover-free 生成翻唱；
 3. 把结果音频 URL 通过 OneBot11 record 消息发回群（NapCat 自动转码 silk）。
@@ -231,7 +231,7 @@ class LiuguangSing(Star):
             await self._send_group_text(
                 event,
                 group_id,
-                "请先发一个 mp3 文件，然后 @流光 翻唱（可引用该文件消息，或直接附带文件）~",
+                "请先发一个 mp3 文件，然后 @机器人 翻唱（可引用该文件消息，或直接附带文件）~",
             )
             return
         audio_bytes, ext = got
