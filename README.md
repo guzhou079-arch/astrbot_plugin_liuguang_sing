@@ -30,7 +30,7 @@ MiniMax music-cover-free 生成翻唱
 |---|---|---|
 | `api_key` | MiniMax API Key（与 TTS 同一账户即可） | 空 |
 | `api_base` | MiniMax API 地址 | `https://api.minimax.chat` |
-| `model` | 翻唱模型 | `music-cover-free` |
+| `model` | 翻唱模型（下拉选择：`music-cover-free` 限免 / `music-cover` 付费） | `music-cover-free` |
 | `default_prompt` | 默认翻唱风格描述 | `原曲风格翻唱，深情演绎` |
 | `cooldown_seconds` | 翻唱冷却秒数（防刷限免额度） | `300` |
 | `waiting_msg` / `success_msg` / `fail_msg` | 各环节提示语模板 | - |
