@@ -10,9 +10,10 @@
     "default": "https://api.minimax.chat"
   },
   "model": {
-    "description": "翻唱模型（music-cover-free 限免，RPM=3；付费可用 music-cover）",
+    "description": "翻唱模型：music-cover-free（限免，RPM=3，音质一般）或 music-cover（付费，RPM=120，音质更好）",
     "type": "string",
-    "default": "music-cover-free"
+    "default": "music-cover-free",
+    "options": ["music-cover-free", "music-cover"]
   },
   "default_prompt": {
     "description": "默认翻唱风格描述（10~300 字符）",
