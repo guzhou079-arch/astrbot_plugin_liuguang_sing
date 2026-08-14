@@ -1,5 +1,5 @@
 name: liuguang_sing
 desc: 群聊翻唱插件：@机器人 翻唱 + 附带/引用 mp3 文件，调用 MiniMax music-cover 生成翻唱并发送语音到群。
-version: v1.0.1
+version: v1.0.2
 author: guzhou
 repo: https://github.com/guzhou079-arch/astrbot_plugin_liuguang_sing
