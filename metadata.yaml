@@ -1,5 +1,15 @@
 name: liuguang_sing
-desc: 群聊翻唱插件：@机器人 翻唱 + 附带/引用 mp3 文件，调用 MiniMax music-cover 生成翻唱并发送语音到群。
+display_name: 群聊 AI 翻唱
+short_desc: 群里 @机器人 翻唱，附带/引用 mp3 文件即可
+desc: 群聊翻唱插件：@机器人 翻唱 + 附带/引用 mp3 文件，调用 MiniMax music-cover 生成翻唱并发送语音到群。通用插件，不依赖机器人昵称；仅对 aiocqhttp 平台（NapCat / OneBot11）生效。
 version: v1.0.2
 author: guzhou
 repo: https://github.com/guzhou079-arch/astrbot_plugin_liuguang_sing
+social_link: https://github.com/guzhou079-arch
+support_platforms:
+  - aiocqhttp
+tags:
+  - 翻唱
+  - 音乐
+  - MiniMax
+  - 语音
